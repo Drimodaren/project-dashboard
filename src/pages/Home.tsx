@@ -1,12 +1,11 @@
-
-import ProjectList from './ProjectList'
+import ProjectList from '../features/project/components/ProjectList/ProjectList';
 
 function Home() {
   return (
     <div>
-        <ProjectList/>
+      <ProjectList />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
